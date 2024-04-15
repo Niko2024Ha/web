@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e3f2fd; 
+    color: #212529; 
+}
+
+#scheduleTable {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+}
+
+#scheduleTable, #scheduleTable th, #scheduleTable td {
+    border: 1px solid #dee2e6; 
+}
+
+th, td {
+    padding: 12px; 
+    text-align: left;
+}
+
+th {
+    background-color: #007bff; 
+    color: #ffffff; 
+    font-size: 16px; 
+}
+
+tr:nth-child(even) {
+    background-color: #f8f9fa; 
+}
+
+tr:hover {
+    background-color: #f1f1f1; 
+}
